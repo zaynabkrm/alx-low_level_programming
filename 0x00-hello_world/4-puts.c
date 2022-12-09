@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
- * main - print a line code using puts
- *
+ * main - Etry 
+ * desciption My first code using c language 
  * Return 0
  *
  */
