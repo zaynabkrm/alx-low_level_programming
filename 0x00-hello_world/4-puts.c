@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
  * main - print a line of code using puts
- *
+ * description  My first code using C
  * Return: 0
  */
 int main(void)
