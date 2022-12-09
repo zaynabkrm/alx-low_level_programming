@@ -1,8 +1,8 @@
 #include <stdio.h>
 /*
- * main - Etry 
+ * main - Entry  
  * desciption My first code using c language 
- * Return 0
+ * Return: 0
  */
 
 int main(void)
