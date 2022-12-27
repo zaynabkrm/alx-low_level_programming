@@ -13,10 +13,6 @@ int main(void)
 	{
 		putchar(al);
 	}
-	for (al = 'A'; al <= 'Z'; al++)
-	{
-		putchar(al);
-	}
 	putchar('\n');
 
 	return (0);
