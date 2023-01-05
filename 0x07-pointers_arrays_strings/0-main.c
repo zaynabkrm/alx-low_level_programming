@@ -5,7 +5,7 @@
  * simple _print_buffer -prints buffer in hexa
  * @buffer :the address of memory
  * @size: the size of the memory
- *
+ * Description print buffer
  * Return: Nothing
  */
 void simple_print_buffer(char *buffer, unsigned int size)
@@ -29,9 +29,9 @@ void simple_print_buffer(char *buffer, unsigned int size)
 	printf("\n");
 }
 /**
- * main -check the code
- *
- * Return:0
+ * main - check the code
+ * description
+ * Return: 0
  */
 int main(void)
 {
