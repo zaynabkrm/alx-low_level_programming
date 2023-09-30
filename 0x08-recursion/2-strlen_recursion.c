@@ -2,9 +2,9 @@
 
 /**
  * _strlen_recursion -returns the length of a string.
- * @s: String
- * description
- * return: int
+ * @s: the String
+ *
+ * Return: Length of the string
  */
 int _strlen_recursion(char *s)
 {
