@@ -10,7 +10,7 @@
  *
  * Return: pointer
  */
-char *argstostr(int ac, char **av);
+char *argstostr(int ac, char **av)
 {
 	int i, j, len;
 	char *new_str;
