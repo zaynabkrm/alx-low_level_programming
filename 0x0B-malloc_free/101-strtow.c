@@ -13,8 +13,9 @@ int is_space(char c)
 }
 
 /**
- * count_wrd - Word count
+ * count_wrds - Word count
  * @str: the string
+ *
  * Return: number of words
  */
 int count_wrds(char *str)
