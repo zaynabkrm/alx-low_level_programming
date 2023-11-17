@@ -5,7 +5,7 @@
 /**
  * main - minimum number of coins to make change for an amount of money
  * @argc: number of commandline arguments.
- * @argv: pointer to an array 
+ * @argv: pointer to an array
  *
  * Return: 0
  */
@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 	int i, count = 0, cents;
 	int coin[] = {25, 10, 5, 2, 1};
-	
+
 	if (argc != 2)
 	{
 		printf("Error\n");
