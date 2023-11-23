@@ -9,9 +9,9 @@
  *
  * Return: pointer to space in memory
  */
-char *string_nconcat(char *s1, char *s2, unsigned int n);
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-        char *str
+        char *str;
 	unsigned int i, j, len1, len2;
 
 	if (s1 == NULL)
