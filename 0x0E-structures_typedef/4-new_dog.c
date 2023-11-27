@@ -26,13 +26,12 @@ int _strlen(char *str)
 
 char *_strcopy(char *dest, char *src)
 {
-        int i;
+	int i;
 
-        for (i = 0; src[i]; i++)
-                det[i] = src[i];
-        dest[i] = '\0';
-
-        return (dest);
+	for (i = 0; src[i]; i++)
+		det[i] = src[i];
+	dest[i] = '\0';
+	return (dest);
 }
 
 /**
@@ -46,6 +45,7 @@ char *_strcopy(char *dest, char *src)
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *dog;
+	
 	if (!name || age < 0 || !owner)
 		return (NULL);
 	dog = (dog_t *) malloc(sizeof(dog_t));
