@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "dog.h"
 /**
  * _strlen - a function taht gets  the length of a string
@@ -29,7 +30,7 @@ char *_strcopy(char *dest, char *src)
 	int i;
 
 	for (i = 0; src[i]; i++)
-		det[i] = src[i];
+		dest[i] = src[i];
 	dest[i] = '\0';
 	return (dest);
 }
@@ -45,7 +46,7 @@ char *_strcopy(char *dest, char *src)
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *dog;
-	
+
 	if (!name || age < 0 || !owner)
 		return (NULL);
 	dog = (dog_t *) malloc(sizeof(dog_t));
